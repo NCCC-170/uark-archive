@@ -1,0 +1,78 @@
+.logo_container {
+	opacity: 1 !important;
+	padding-bottom: 8% !important; 
+}
+
+@media (max-width: 980px) { 
+	img#logo {
+		display: none !important;
+	}
+}
+
+/*underline links in paragraphs and lists*/ 
+p a {      
+    color: #9d2235;  
+    text-decoration: underline !important;  
+}  
+li a {      
+    color: #9d2235;  
+    text-decoration: underline !important;  
+}  
+
+/*no underline on hover for paragraphs and lists*/
+p a:hover {  
+    text-decoration: none !important;  
+}  
+li a:hover {  
+    text-decoration: none !important; 
+}    
+
+/*underline headings on hover only*/ 
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{  
+    color: #9D2235;   
+    text-decoration: none !important;  
+}  
+h1:hover a {  
+    text-decoration: underline !important;  
+}  
+h2:hover a {  
+    text-decoration: underline !important;  
+}  
+h3:hover a {  
+    text-decoration: underline !important;  
+}  
+h4:hover a {  
+    text-decoration: underline !important;  
+}  
+h5:hover a {  
+    text-decoration: underline !important;  
+}  
+h6:hover a {  
+    text-decoration: underline !important;  
+} 
+
+/*no underline for navigation*/ 
+nav a {  
+  text-decoration: none !important;  
+}  
+
+/*no underline for admin bar*/
+#wpadminbar a {   
+  text-decoration: none !important;   
+} 
+
+/*no underline in footer*/   
+#footer-info a {    
+  text-decoration: none !important;    
+}    
+
+/* footer headings are white for legibility */ 
+.footer-widget h4{ 
+  color: #ffffff !important; 
+} 
+
+/*Menu styling*/
+#top-menu li {
+    padding-right: 15px !important;
+    font-size: 20px !important;
+}
